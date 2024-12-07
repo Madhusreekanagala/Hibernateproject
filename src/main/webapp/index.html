@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hibernate Crud Operations</title>
+</head>
+<body>
+<h1>Insert data into student table</h1>
+<form action="AddData" method="get">
+<p>Enter student id:<input type="text" name="t1" /></p>
+<p>Enter student Name:<input type="text" name="t2" /></p>
+<p> <input type="submit" value="INSERT" /></p>
+</form>
+<h1>Update Data on Student Table</h1>
+<form action="UpdateData" method="get">
+<p> Enter Student Id:<input type="text" name="t1" /></p>
+<p> Enter Student Name:<input type="text" name="t2" /></p>
+<p><input type="submit" value ="UPDATE"/></p>
+</form>
+<h1>Delete Data from Student Table</h1>
+<form action="DeleteData">
+<p>Enter Student Id to Delete:<input type="text" name="t1"/>/</p>
+<input type="submit" value="DELETE">
+</form>
+<h1>Select or Retrieve data from table</h1>
+<form action="RetrieveData" method="get">
+<p>Enter Student Id to Retrieve:<input type="text" name="t1"/>/</p>
+<p><input type= "submit" value="RETRIEVEDATA"/></p>
+</form>
+</body>
+</html>
